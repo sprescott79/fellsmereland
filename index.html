@@ -1,0 +1,1025 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>7+/- Acre Lots in Fellsmere, FL | Own Your Own Land</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --green-deep:   #1a2e1a;
+    --green-mid:    #2c4a2c;
+    --green-sage:   #5a7a52;
+    --green-light:  #8aab7e;
+    --gold:         #c9922a;
+    --gold-light:   #e8b45a;
+    --cream:        #f8f3ea;
+    --ivory:        #fdfaf4;
+    --text:         #1e2b1e;
+    --muted:        #6b7a5e;
+    --white:        #ffffff;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--ivory);
+    color: var(--text);
+    line-height: 1.7;
+    overflow-x: hidden;
+  }
+
+  /* ── NAV BAR ── */
+  nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 40px;
+    background: rgba(26,46,26,0.92);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid rgba(201,146,42,0.3);
+  }
+  .nav-brand {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.1rem;
+    color: var(--gold-light);
+    letter-spacing: 0.04em;
+    font-weight: 600;
+  }
+  .nav-brand span { color: var(--white); font-weight: 400; }
+  .nav-cta {
+    background: var(--gold);
+    color: var(--white);
+    text-decoration: none;
+    font-size: 0.82rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 9px 22px;
+    border-radius: 2px;
+    transition: background 0.2s;
+  }
+  .nav-cta:hover { background: var(--gold-light); color: var(--green-deep); }
+
+  /* ── HERO ── */
+  .hero {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 120px 8% 80px;
+    background:
+      linear-gradient(105deg, rgba(20,35,20,0.80) 0%, rgba(20,35,20,0.45) 55%, rgba(20,35,20,0.15) 100%),
+      url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1800&q=80') center/cover no-repeat;
+    overflow: hidden;
+  }
+
+  .hero::after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 100px;
+    background: linear-gradient(to bottom, transparent, var(--ivory));
+    pointer-events: none;
+  }
+
+  .hero-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(201,146,42,0.18);
+    border: 1px solid var(--gold);
+    color: var(--gold-light);
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 7px 16px;
+    border-radius: 2px;
+    margin-bottom: 28px;
+    animation: fadeUp 0.7s ease both;
+  }
+
+  .hero h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(2.8rem, 6vw, 5.2rem);
+    font-weight: 600;
+    color: var(--white);
+    line-height: 1.1;
+    max-width: 700px;
+    animation: fadeUp 0.7s 0.15s ease both;
+  }
+  .hero h1 em {
+    font-style: italic;
+    color: var(--gold-light);
+  }
+
+  .hero-sub {
+    font-size: clamp(1rem, 1.6vw, 1.2rem);
+    color: rgba(255,255,255,0.85);
+    max-width: 520px;
+    margin-top: 22px;
+    font-weight: 300;
+    animation: fadeUp 0.7s 0.28s ease both;
+  }
+
+  .hero-actions {
+    display: flex;
+    gap: 16px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    animation: fadeUp 0.7s 0.42s ease both;
+  }
+  .btn-primary {
+    background: var(--gold);
+    color: var(--white);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 16px 34px;
+    border-radius: 2px;
+    transition: all 0.2s;
+    box-shadow: 0 4px 20px rgba(201,146,42,0.35);
+  }
+  .btn-primary:hover {
+    background: var(--gold-light);
+    color: var(--green-deep);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 28px rgba(201,146,42,0.4);
+  }
+  .btn-outline {
+    background: transparent;
+    color: var(--white);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    padding: 16px 34px;
+    border: 1.5px solid rgba(255,255,255,0.45);
+    border-radius: 2px;
+    transition: all 0.2s;
+  }
+  .btn-outline:hover {
+    border-color: var(--gold-light);
+    color: var(--gold-light);
+  }
+
+  /* ── PILL STRIP ── */
+  .pill-strip {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    padding: 36px 6%;
+    background: var(--green-deep);
+  }
+  .pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.12);
+    color: var(--white);
+    font-size: 0.82rem;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    padding: 10px 20px;
+    border-radius: 100px;
+  }
+  .pill-dot {
+    width: 7px; height: 7px;
+    background: var(--gold);
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  /* ── SECTIONS ── */
+  section { padding: 90px 8%; }
+
+  .section-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--green-sage);
+    margin-bottom: 12px;
+  }
+
+  h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(2rem, 3.5vw, 3rem);
+    font-weight: 600;
+    line-height: 1.2;
+    color: var(--green-deep);
+  }
+
+  .rule {
+    width: 52px;
+    height: 3px;
+    background: var(--gold);
+    margin: 18px 0 28px;
+    border-radius: 2px;
+  }
+
+  .lead {
+    font-size: 1.08rem;
+    color: var(--muted);
+    max-width: 580px;
+    line-height: 1.8;
+  }
+
+  /* ── TWO-COL LAYOUT ── */
+  .two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 72px;
+    align-items: center;
+  }
+  .two-col.flip { direction: rtl; }
+  .two-col.flip > * { direction: ltr; }
+
+  .col-img {
+    position: relative;
+    border-radius: 4px;
+    overflow: hidden;
+    aspect-ratio: 4/3;
+    box-shadow: 0 24px 60px rgba(26,46,26,0.18);
+  }
+  .col-img img {
+    width: 100%; height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.6s ease;
+  }
+  .col-img:hover img { transform: scale(1.04); }
+  .img-badge {
+    position: absolute;
+    bottom: 18px; left: 18px;
+    background: var(--green-deep);
+    color: var(--gold-light);
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 8px 14px;
+    border-radius: 2px;
+  }
+
+  /* ── CHECKLIST ── */
+  .checklist {
+    list-style: none;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .checklist li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    font-size: 0.95rem;
+    color: var(--text);
+    line-height: 1.55;
+  }
+  .checklist li::before {
+    content: '';
+    flex-shrink: 0;
+    width: 18px; height: 18px;
+    margin-top: 2px;
+    background: var(--green-sage);
+    border-radius: 50%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 10'%3E%3Cpolyline points='1,5 4.5,8.5 11,1.5' fill='none' stroke='white' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    background-size: 11px 9px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  /* ── FEATURE GRID ── */
+  .feature-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+    margin-top: 52px;
+  }
+  .feature-card {
+    background: var(--white);
+    border: 1px solid rgba(90,122,82,0.15);
+    border-radius: 4px;
+    padding: 32px 28px;
+    transition: box-shadow 0.25s, transform 0.25s;
+  }
+  .feature-card:hover {
+    box-shadow: 0 12px 40px rgba(26,46,26,0.10);
+    transform: translateY(-3px);
+  }
+  .feature-icon {
+    font-size: 2rem;
+    margin-bottom: 16px;
+    display: block;
+  }
+  .feature-card h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.35rem;
+    font-weight: 600;
+    color: var(--green-deep);
+    margin-bottom: 10px;
+  }
+  .feature-card p {
+    font-size: 0.92rem;
+    color: var(--muted);
+    line-height: 1.7;
+  }
+
+  /* ── FINANCING BANNER ── */
+  .financing-banner {
+    background: var(--green-deep);
+    color: var(--white);
+    border-radius: 6px;
+    padding: 56px 8%;
+    margin: 0 8% 90px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 40px;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .financing-banner::before {
+    content: '';
+    position: absolute;
+    top: -60px; right: -60px;
+    width: 300px; height: 300px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(201,146,42,0.18) 0%, transparent 70%);
+  }
+  .financing-banner h2 {
+    color: var(--white);
+    font-size: clamp(1.6rem, 2.8vw, 2.4rem);
+  }
+  .financing-banner .rule { background: var(--gold); }
+  .financing-banner p {
+    font-size: 0.98rem;
+    color: rgba(255,255,255,0.78);
+    max-width: 520px;
+    margin-top: 6px;
+  }
+  .financing-points {
+    list-style: none;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+  }
+  .financing-points li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 0.92rem;
+    color: rgba(255,255,255,0.88);
+  }
+  .financing-points li::before {
+    content: '✦';
+    color: var(--gold);
+    font-size: 0.7rem;
+    margin-top: 4px;
+    flex-shrink: 0;
+  }
+  .fin-price-box {
+    background: rgba(255,255,255,0.07);
+    border: 1.5px solid rgba(201,146,42,0.4);
+    border-radius: 4px;
+    padding: 30px 36px;
+    text-align: center;
+    flex-shrink: 0;
+  }
+  .fin-price-box .price-from {
+    font-size: 0.72rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--gold-light);
+    font-weight: 600;
+  }
+  .fin-price-box .price-num {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--white);
+    line-height: 1;
+    margin-top: 4px;
+  }
+  .fin-price-box .price-suffix {
+    font-size: 0.8rem;
+    color: rgba(255,255,255,0.6);
+    margin-top: 6px;
+  }
+
+  /* ── LOCATION SECTION ── */
+  .location-section {
+    background: var(--cream);
+    padding: 90px 8%;
+  }
+
+  /* ── SIGN-UP SECTION ── */
+  #signup {
+    background: var(--ivory);
+    padding: 90px 8%;
+  }
+  .signup-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 72px;
+    align-items: start;
+  }
+  .signup-left h2 {
+    font-size: clamp(2rem, 3.2vw, 2.8rem);
+  }
+  .signup-left p {
+    font-size: 0.97rem;
+    color: var(--muted);
+    margin-top: 6px;
+    line-height: 1.75;
+  }
+  .signup-left .trust-line {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 32px;
+    font-size: 0.85rem;
+    color: var(--muted);
+  }
+  .signup-left .trust-line::before {
+    content: '';
+    display: block;
+    width: 36px; height: 1px;
+    background: var(--gold);
+  }
+
+  .signup-form-box {
+    background: var(--white);
+    border: 1px solid rgba(90,122,82,0.15);
+    border-radius: 6px;
+    padding: 40px 36px;
+    box-shadow: 0 8px 40px rgba(26,46,26,0.07);
+  }
+  .form-heading {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.5rem;
+    color: var(--green-deep);
+    margin-bottom: 24px;
+  }
+  .form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 14px;
+  }
+  .form-full { grid-column: 1 / -1; }
+  label {
+    font-size: 0.76rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  input, select, textarea {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.93rem;
+    color: var(--text);
+    background: var(--ivory);
+    border: 1.5px solid rgba(90,122,82,0.22);
+    border-radius: 3px;
+    padding: 11px 14px;
+    width: 100%;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  input:focus, select:focus, textarea:focus {
+    border-color: var(--green-sage);
+  }
+  textarea { resize: vertical; min-height: 90px; }
+  .submit-btn {
+    width: 100%;
+    background: var(--green-deep);
+    color: var(--white);
+    border: none;
+    cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.88rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 16px;
+    border-radius: 3px;
+    margin-top: 8px;
+    transition: background 0.2s, transform 0.2s;
+  }
+  .submit-btn:hover {
+    background: var(--green-sage);
+    transform: translateY(-1px);
+  }
+  .form-disclaimer {
+    font-size: 0.76rem;
+    color: var(--muted);
+    text-align: center;
+    margin-top: 12px;
+    line-height: 1.5;
+  }
+  .success-box {
+    display: none;
+    text-align: center;
+    padding: 20px 0;
+  }
+  .success-icon {
+    width: 64px; height: 64px;
+    background: var(--green-sage);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 18px;
+    font-size: 1.8rem;
+  }
+  .success-box h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.8rem;
+    color: var(--green-deep);
+    margin-bottom: 10px;
+  }
+  .success-box p {
+    font-size: 0.95rem;
+    color: var(--muted);
+  }
+
+  /* ── AGENT CARD ── */
+  .agent-section {
+    background: var(--green-deep);
+    padding: 72px 8%;
+  }
+  .agent-inner {
+    display: flex;
+    align-items: center;
+    gap: 52px;
+    max-width: 860px;
+    margin: 0 auto;
+  }
+  .agent-photo-wrap {
+    flex-shrink: 0;
+    width: 150px; height: 150px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.1);
+    border: 3px solid var(--gold);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .agent-initials {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--gold-light);
+    line-height: 1;
+  }
+  .agent-info { flex: 1; }
+  .agent-tag {
+    font-size: 0.72rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--gold);
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  .agent-name {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: var(--white);
+    line-height: 1.15;
+  }
+  .agent-brokerage {
+    font-size: 1rem;
+    color: rgba(255,255,255,0.65);
+    margin-top: 4px;
+  }
+  .agent-divider {
+    width: 40px; height: 2px;
+    background: var(--gold);
+    margin: 16px 0;
+    border-radius: 2px;
+  }
+  .agent-bio {
+    font-size: 0.92rem;
+    color: rgba(255,255,255,0.75);
+    line-height: 1.75;
+    max-width: 500px;
+  }
+  .agent-contacts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-top: 22px;
+  }
+  .agent-contact-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.18);
+    color: var(--white);
+    text-decoration: none;
+    font-size: 0.84rem;
+    font-weight: 500;
+    padding: 10px 18px;
+    border-radius: 2px;
+    transition: background 0.2s, border-color 0.2s;
+  }
+  .agent-contact-link:hover {
+    background: rgba(201,146,42,0.2);
+    border-color: var(--gold);
+    color: var(--gold-light);
+  }
+
+  /* ── FOOTER ── */
+  footer {
+    background: #0f1c0f;
+    color: rgba(255,255,255,0.45);
+    text-align: center;
+    padding: 28px 24px;
+    font-size: 0.78rem;
+    line-height: 1.7;
+  }
+  footer a { color: rgba(255,255,255,0.55); text-decoration: none; }
+  footer a:hover { color: var(--gold-light); }
+
+  /* ── ANIMATIONS ── */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(22px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  .fade-in {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.65s ease, transform 0.65s ease;
+  }
+  .fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 900px) {
+    nav { padding: 12px 20px; }
+    .two-col, .signup-inner { grid-template-columns: 1fr; gap: 40px; }
+    .two-col.flip { direction: ltr; }
+    .feature-grid { grid-template-columns: 1fr 1fr; }
+    .financing-banner { grid-template-columns: 1fr; margin: 0 0 60px; border-radius: 0; }
+    .agent-inner { flex-direction: column; text-align: center; }
+    .agent-contacts { justify-content: center; }
+    section, .location-section, #signup, .agent-section { padding: 60px 6%; }
+  }
+  @media (max-width: 580px) {
+    .hero { padding: 100px 6% 70px; }
+    .feature-grid { grid-template-columns: 1fr; }
+    .form-row { grid-template-columns: 1fr; }
+    .pill-strip { padding: 28px 4%; }
+    .signup-form-box { padding: 28px 20px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-brand">RE/MAX Crown Realty <span>· Donna Miller</span></div>
+  <a href="https://forms.gle/K6LyWEQ7RbC1fJ9J7" target="_blank" class="nav-cta">Get Lot List</a>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-tag">🌿 Fellsmere, Florida · A-2 Zoning</div>
+  <h1>7+/- Acre Lots.<br><em>Seller Financing.</em><br>Fellsmere, FL.</h1>
+  <p class="hero-sub">Platted and ready for your vision — whether that's a dream home, a small farm, horses, or simply wide-open Florida land you can truly call your own. Starting at $250,000.</p>
+  <div class="hero-actions">
+    <a href="https://forms.gle/K6LyWEQ7RbC1fJ9J7" target="_blank" class="btn-primary">Get the Available Lot List</a>
+    <a href="#about" class="btn-outline">Learn More</a>
+  </div>
+</section>
+
+<!-- PILL STRIP -->
+<div class="pill-strip">
+  <div class="pill"><span class="pill-dot"></span> 7+/- Acres Per Lot</div>
+  <div class="pill"><span class="pill-dot"></span> A-2 Agricultural Zoning</div>
+  <div class="pill"><span class="pill-dot"></span> Already Platted</div>
+  <div class="pill"><span class="pill-dot"></span> Starting at $250,000</div>
+  <div class="pill"><span class="pill-dot"></span> Seller Financing Available</div>
+  <div class="pill"><span class="pill-dot"></span> Fellsmere, FL</div>
+</div>
+
+<!-- ABOUT SECTION -->
+<section id="about">
+  <div class="two-col">
+    <div class="fade-in">
+      <p class="section-label">What You're Getting</p>
+      <h2>Land That's Ready When You Are</h2>
+      <div class="rule"></div>
+      <p class="lead">These 7+/- acre lots check every box for buyers who want real land in a great location. The platting is done, the zoning supports both residential and agricultural use, and seller financing makes it easier to get to the closing table.</p>
+      <ul class="checklist" style="margin-top: 24px;">
+        <li>7+/- acres — room for a home, outbuildings, and open land</li>
+        <li>A-2 zoning — supports both residential and agricultural use</li>
+        <li>Already platted — no waiting, no extra approvals to clear</li>
+        <li>Seller financing available — flexible options to get you to closing</li>
+        <li>Multiple lots available — great for buyers wanting adjacent parcels</li>
+        <li>Property Owners Association in place</li>
+      </ul>
+    </div>
+    <div class="col-img fade-in">
+      <img src="https://images.unsplash.com/photo-1501854140801-50d01698950b?w=900&q=80" alt="Open Florida land at sunset" />
+      <div class="img-badge">Fellsmere, FL</div>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURE GRID -->
+<section style="padding-top: 0; padding-bottom: 90px;">
+  <div class="fade-in" style="text-align:center; max-width: 600px; margin: 0 auto 0;">
+    <p class="section-label">What You Can Do With It</p>
+    <h2>Built for People Who Want Real Land</h2>
+    <div class="rule" style="margin: 18px auto 0;"></div>
+  </div>
+  <div class="feature-grid">
+    <div class="feature-card fade-in">
+      <span class="feature-icon">🏡</span>
+      <h3>Your Home, Your Way</h3>
+      <p>A-2 zoning supports single-family residential use. Build the home you've always wanted on 7+/- acres — designed for your lifestyle, your timeline, and your vision.</p>
+    </div>
+    <div class="feature-card fade-in">
+      <span class="feature-icon">🌾</span>
+      <h3>Agricultural Use</h3>
+      <p>A-2 is an agricultural zoning district. These lots are well-suited for buyers who want to use their land for agricultural purposes. Specific uses vary by parcel — contact the county for details.</p>
+    </div>
+    <div class="feature-card fade-in">
+      <span class="feature-icon">🌳</span>
+      <h3>Space & Privacy</h3>
+      <p>Seven-plus acres means real separation from the world. Natural buffers, open sky, and the kind of quiet that's genuinely hard to find this close to the Treasure Coast.</p>
+    </div>
+    <div class="feature-card fade-in">
+      <span class="feature-icon">📋</span>
+      <h3>Already Platted</h3>
+      <p>The legwork is done. These lots are platted and ready — no waiting on surveys or subdivision approvals. You can move from contract to closing on a straightforward timeline.</p>
+    </div>
+    <div class="feature-card fade-in">
+      <span class="feature-icon">💰</span>
+      <h3>Seller Financing Available</h3>
+      <p>The seller is offering special financing to help qualified buyers get to closing. Fewer hoops, more flexibility — ask Donna for current terms and what you'd need to qualify.</p>
+    </div>
+    <div class="feature-card fade-in">
+      <span class="feature-icon">📈</span>
+      <h3>Land You Can Use — That Grows in Value</h3>
+      <p>Acreage in Indian River County continues to appreciate. Buying land you can actually live on and use, at a price well below coastal comparable, is a smart long-term move.</p>
+    </div>
+  </div>
+</section>
+
+<!-- A-2 ZONING EXPLAINER -->
+<section id="zoning" style="background: var(--cream); padding: 90px 8%;">
+  <div class="fade-in" style="max-width: 860px; margin: 0 auto;">
+    <p class="section-label">Understanding the Zoning</p>
+    <h2>A-2 Zoning: Residential & Agricultural</h2>
+    <div class="rule"></div>
+    <p class="lead">These lots are zoned A-2 (Agriculture-2) by Indian River County. A-2 is designed to support both single-family residential use and a range of agricultural uses — making it a flexible designation for buyers who want to live on their land and do something with it.</p>
+
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:28px; margin-top:40px;">
+
+      <div style="background:var(--white); border:1px solid rgba(90,122,82,0.15); border-radius:4px; padding:28px 26px;">
+        <p style="font-size:0.72rem;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;color:var(--green-sage);margin-bottom:14px;">🏡 Residential</p>
+        <p style="font-size:0.95rem;color:var(--text);line-height:1.75;">A-2 supports single-family residential development. You can build a home, add accessory structures, and live on your land. It's a true residential parcel — just with the added flexibility of agricultural zoning.</p>
+      </div>
+
+      <div style="background:var(--white); border:1px solid rgba(90,122,82,0.15); border-radius:4px; padding:28px 26px;">
+        <p style="font-size:0.72rem;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;color:var(--green-sage);margin-bottom:14px;">🌾 Agricultural</p>
+        <p style="font-size:0.95rem;color:var(--text);line-height:1.75;">A-2 is an agricultural zoning district, meaning the land is intended to support farming, ranching, and related uses alongside residential development. Specific uses depend on your parcel and plans.</p>
+      </div>
+
+    </div>
+
+    <!-- IRC Contact Box -->
+    <div style="margin-top:28px; background:var(--green-deep); border-radius:4px; padding:36px 32px; color:var(--white);">
+      <p style="font-size:0.72rem;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;color:var(--gold-light);margin-bottom:14px;">📞 Have Specific Use Questions? Contact Indian River County Directly.</p>
+      <p style="font-size:0.93rem;color:rgba(255,255,255,0.82);line-height:1.75;margin-bottom:22px;">Zoning regulations are detailed and parcel-specific. If you have questions about what's allowed on a particular lot — building permits, agricultural operations, accessory structures, or anything else — the county's Community Development Department is the right place to start.</p>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;">
+        <div>
+          <p style="font-size:0.72rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--gold);margin-bottom:8px;">Building Division</p>
+          <p style="font-size:0.9rem;color:rgba(255,255,255,0.85);line-height:1.7;">
+            1801 27th Street<br>
+            Vero Beach, FL 32960<br>
+            <a href="tel:7722261260" style="color:var(--gold-light);text-decoration:none;">📞 (772) 226-1260</a><br>
+            Mon–Fri, 8:30 AM – 5:00 PM
+          </p>
+        </div>
+        <div>
+          <p style="font-size:0.72rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--gold);margin-bottom:8px;">Online Resources</p>
+          <p style="font-size:0.9rem;color:rgba(255,255,255,0.85);line-height:1.7;">
+            <a href="https://indianriver.gov/services/community_development/building_division/index.php" target="_blank" style="color:var(--gold-light);text-decoration:none;">🌐 Building Division Website</a><br>
+            <a href="https://indianriver.gov/services/community_development/faq.php" target="_blank" style="color:var(--gold-light);text-decoration:none;">🌐 Zoning FAQ</a><br>
+            <a href="https://www.indianriver.gov/services/planning_development_services/planning_division/zoning_maps.php" target="_blank" style="color:var(--gold-light);text-decoration:none;">🌐 Zoning Maps</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div style="margin-top:24px;padding:18px 22px;background:rgba(201,146,42,0.08);border-left:3px solid var(--gold);border-radius:2px;">
+      <p style="font-size:0.85rem;color:var(--muted);line-height:1.75;"><strong style="color:var(--text);">Note:</strong> Zoning information is provided for general awareness only. Permitted uses vary by parcel location and circumstances. Always verify directly with Indian River County Community Development before making purchasing decisions based on a specific intended use.</p>
+    </div>
+  </div>
+</section>
+
+<!-- FINANCING BANNER -->
+<div class="financing-banner fade-in">
+  <div>
+    <p class="section-label" style="color: var(--gold-light);">Special Financing</p>
+    <h2>The Seller Is Making It Easier to Say Yes</h2>
+    <div class="rule"></div>
+    <p>Not everyone fits the mold of a conventional land loan — and that's okay. The seller on these lots is offering special financing to help qualified buyers get to the closing table without the typical bank headaches.</p>
+    <ul class="financing-points">
+      <li>Seller financing available — flexible terms worth asking about</li>
+      <li>Designed for buyers who may not qualify for traditional land loans</li>
+      <li>Straightforward process with fewer hoops to jump through</li>
+      <li>Ask Donna for current financing details and what you'd need to qualify</li>
+    </ul>
+  </div>
+  <div class="fin-price-box">
+    <p class="price-from">Starting From</p>
+    <p class="price-num">$250K</p>
+    <p class="price-suffix">7+/- Acres · A-2 Zoning<br>Seller Financing Available</p>
+  </div>
+</div>
+
+<!-- LOCATION SECTION -->
+<section class="location-section" id="location">
+  <div class="two-col flip">
+    <div class="col-img fade-in">
+      <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=900&q=80" alt="Florida countryside near Vero Beach" />
+      <div class="img-badge">~20 min to Vero Beach</div>
+    </div>
+    <div class="fade-in">
+      <p class="section-label">Where You'll Be</p>
+      <h2>Fellsmere — Florida's Best-Kept Secret</h2>
+      <div class="rule"></div>
+      <p class="lead">Fellsmere sits in the western part of Indian River County — close enough to enjoy all the Treasure Coast has to offer, far enough away to have real land and real privacy.</p>
+      <ul class="checklist" style="margin-top: 24px;">
+        <li>Approximately 20 minutes to Vero Beach and the Atlantic coast</li>
+        <li>Indian River County — excellent schools, healthcare, and services</li>
+        <li>Easy access to I-95 and US-1</li>
+        <li>Surrounded by natural preserves, rivers, and open countryside</li>
+        <li>A growing community of farmers, ranchers, and outdoor enthusiasts</li>
+        <li>Significantly lower land prices than coastal parcels</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- SIGN-UP SECTION -->
+<section id="signup">
+  <div class="signup-inner">
+    <div class="signup-left fade-in">
+      <p class="section-label">No Pressure · No Obligation</p>
+      <h2>Get the Full List of Available Lots</h2>
+      <div class="rule"></div>
+      <p>Fill out the short form and Donna will send you the current lot inventory, pricing details, and information on the seller's financing program — everything you need to make a smart decision, with zero pressure attached.</p>
+      <p style="margin-top: 16px; font-size: 0.93rem; color: var(--muted);">With over 20 years of experience on the Treasure Coast, Donna knows this market inside and out. She's here to educate and guide — not just sell you a lot.</p>
+      <div class="trust-line">No spam. No high-pressure calls. Just useful information.</div>
+    </div>
+    <div class="signup-form-box fade-in">
+      <div id="form-state">
+        <h3 class="form-heading">Send Me the Lot List</h3>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" placeholder="Jane" />
+          </div>
+          <div class="form-group">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" placeholder="Smith" />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="jane@email.com" />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" placeholder="(772) 555-1234" />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group form-full">
+            <label for="interest">What Best Describes You?</label>
+            <select id="interest">
+              <option value="">Select an option...</option>
+              <option>Building a custom home</option>
+              <option>Equestrian / horses</option>
+              <option>Homestead / small farm</option>
+              <option>Land investment</option>
+              <option>Multiple uses / not sure yet</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group form-full">
+            <label for="timeline">Purchase Timeline</label>
+            <select id="timeline">
+              <option value="">Select a timeframe...</option>
+              <option>As soon as possible</option>
+              <option>Within 3–6 months</option>
+              <option>6–12 months</option>
+              <option>Just exploring for now</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group form-full">
+            <label for="message">Questions or Comments (optional)</label>
+            <textarea id="message" placeholder="Tell me a little about what you're looking for..."></textarea>
+          </div>
+        </div>
+        <button class="submit-btn" onclick="handleSubmit()">Send Me the Available Lot List →</button>
+        <!-- Backup direct link -->
+        <p style="text-align:center;margin-top:10px;font-size:0.82rem;color:var(--muted);">Or <a href="https://forms.gle/K6LyWEQ7RbC1fJ9J7" target="_blank" style="color:var(--green-sage);">click here to open the form directly</a></p>
+        <p class="form-disclaimer">Your info is shared only with Donna Miller at RE/MAX Crown Realty — never sold or spammed.</p>
+      </div>
+
+      <div class="success-box" id="success-state">
+        <div class="success-icon">✓</div>
+        <h3>You're on the list!</h3>
+        <p>Donna will be in touch soon with the current available lot inventory and financing details. Keep an eye on your inbox — and feel free to call or text if you'd like to connect sooner.</p>
+        <p style="margin-top: 14px; font-weight: 600; color: var(--green-deep);">Donna Miller · RE/MAX Crown Realty</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- AGENT SECTION -->
+<section class="agent-section" id="contact">
+  <div class="agent-inner">
+    <div class="agent-photo-wrap">
+      <div class="agent-initials">DM</div>
+    </div>
+    <div class="agent-info">
+      <p class="agent-tag">Your Treasure Coast Land Specialist</p>
+      <p class="agent-name">Donna Miller</p>
+      <p class="agent-brokerage">RE/MAX Crown Realty</p>
+      <div class="agent-divider"></div>
+      <p class="agent-bio">With over 20 years of experience on the Treasure Coast of Florida, Donna brings the market knowledge, honesty, and personal attention that buyers deserve. Her approach is friendly, educational, and direct — she'll give you the real information you need to make the right decision for your family and your future.</p>
+      <div class="agent-contacts">
+        <a href="tel:+17725710777" class="agent-contact-link">📞 Call Donna</a>
+        <a href="sms:+17725710777" class="agent-contact-link">💬 Text Donna</a>
+        <a href="mailto:verorealtor.donna@gmail.com" class="agent-contact-link">✉ Email Donna</a>
+        <a href="https://forms.gle/K6LyWEQ7RbC1fJ9J7" target="_blank" class="agent-contact-link">📋 Get Lot List</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2025 Donna Miller · RE/MAX Crown Realty · Treasure Coast, Florida</p>
+  <p style="margin-top: 6px;">Information deemed reliable but not guaranteed. Prices subject to change. Contact Donna Miller for current availability and financing details.</p>
+  <p style="margin-top: 8px;"><a href="#top">Back to Top ↑</a></p>
+</footer>
+
+<script>
+  // Intersection Observer for fade-in animations
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  }, { threshold: 0.1 });
+
+  document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+  // Form submit — opens Google Form in new tab
+  function handleSubmit() {
+    window.open('https://forms.gle/K6LyWEQ7RbC1fJ9J7', '_blank');
+  }
+</script>
+</body>
+</html>
